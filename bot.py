@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from stock_quotes import get_quotes
 
-bot = telebot.TeleBot("5008953624:AAGFrj1ufr3Nl2tIgo0fJv2yyyJugC6n12M")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['help'])
 def help(message):
